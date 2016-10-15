@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    tools:context = ".MainActivity">
+    <item
+        android:id = "@+id/menu_about"
+        android:orderInCategory="1"
+        app:showAsAction = "never"
+        android:title = "About" />
+    <item
+        android:id="@+id/menu_setting"
+        android:orderInCategory="2"
+        app:showAsAction = "never"
+        android:title = "Setting" />
+
+    <item
+        android:id="@+id/menu_history"
+        android:orderInCategory="3"
+        android:title="Game History"
+        app:showAsAction = "never"/>
+
+</menu>

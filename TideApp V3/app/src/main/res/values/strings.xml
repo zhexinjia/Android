@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tide App</string>
+    <string-array name="locations_array">
+        <item>Half Moon Bay</item>
+        <item>Florence USCG Pier</item>
+        <item>Garibaldi</item>
+        <item>Charleston</item>
+        <item>Southbeach</item>
+        <item>Yaquina River</item>
+        <item>Dick Point</item>
+        <item>Rogue River</item>
+        <item>Port Orford</item>
+        <item>Alsea Bay</item>
+        <item>Depoe Bay</item>
+        <item>Salmon River</item>
+    </string-array>
+</resources>

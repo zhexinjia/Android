@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <PreferenceCategory android:title = "Game Setting"
+        android:key = "AI_category">
+    <CheckBoxPreference
+        android:key = "AIplaying"
+        android:title = "Play against AI"
+        android:summary = "set player 2 to AI"
+        android:defaultValue = "false" />
+
+    <ListPreference
+        android:key = "AIsetting"
+        android:title = "AI mode"
+        android:dialogTitle = "Choose AI mode"
+        android:dependency="AIplaying"
+        android:entries = "@array/AI_name"
+        android:entryValues="@array/AI_values"/>
+    <ListPreference
+        android:key = "setGoal"
+        android:title = "Set Goal"
+        android:dialogTitle = "choose the score to play to"
+        android:entries = "@array/score_keys"
+        android:entryValues="@array/score_values" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title = "UI settings">
+    <ListPreference
+        android:key = "background"
+        android:title = "background"
+        android:dialogTitle = "choose background"
+        android:entries = "@array/background_keys"
+        android:entryValues="@array/background_values" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

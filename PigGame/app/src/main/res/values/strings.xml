@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Pig Game</string>
+    <string name="instruction">"Pig is a dice game with 2 players. Players roll one die as many times as they wish or until they roll a 1."</string>
+    <string name="dialog_text">"Pig is a dice game with 2 players. Players roll one die as many times as they wish or until they roll a 1."</string>
+    <string-array name="background_keys">
+    <item >Default</item>
+    <item >red</item>
+    <item >grey</item>
+    </string-array>
+    <string-array name="background_values">
+        <item >0</item>
+        <item >1</item>
+        <item >2</item>
+    </string-array>
+
+    <string-array name="score_keys">
+        <item >Default(100)</item>
+        <item >50</item>
+        <item >200</item>
+    </string-array>
+    <string-array name="score_values">
+        <item >100</item>
+        <item >50</item>
+        <item >200</item>
+    </string-array>
+
+    <string-array name="AI_name">
+        <item >Max Roll</item>
+        <item >Max point</item>
+    </string-array>
+    <string-array name="AI_values">
+        <item >0</item>
+        <item >1</item>
+    </string-array>
+
+</resources>
